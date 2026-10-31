@@ -1,0 +1,15 @@
+{
+  "name": "krishi-mitra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Karnataka Digital Agriculture Portal & Living Fields Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run dev",
+    "lint": "npm --prefix frontend run lint",
+    "preview": "npm --prefix frontend run preview",
+    "install:all": "npm --prefix frontend install"
+  }
+}
+

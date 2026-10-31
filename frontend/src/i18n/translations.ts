@@ -1,0 +1,107 @@
+export type Language = 'en' | 'kn';
+
+export const translations = {
+  en: {
+    app_title: "KRISHI MITRA",
+    app_tagline: "Your Complete Digital Farming Companion",
+    nav_home: "Home",
+    nav_schemes: "Government Schemes",
+    nav_my_farm: "My Farm",
+    nav_crop_health: "Crop Health",
+    nav_weather: "Weather Advisory",
+    nav_market: "Market Intelligence",
+    nav_documents: "Documents",
+    nav_knowledge: "Knowledge Hub",
+    nav_assistant: "AI Assistant",
+    nav_login: "Sign In",
+    nav_register: "Register Farmer",
+    nav_dashboard: "Farmer Dashboard",
+    nav_admin: "Admin Console",
+    nav_logout: "Sign Out",
+    
+    hero_headline: "Your Farm. Your Rights. In Your Language.",
+    hero_kannada_motto: "ನಿಮ್ಮ ಕೃಷಿಗೆ, ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ.",
+    hero_subtitle: "Krishi Mitra unites farm land intelligence, verified government schemes, APMC market prices, crop health analysis, and weather warnings into one personalized platform.",
+    hero_cta_services: "Explore Agricultural Services",
+    hero_cta_schemes: "Discover Government Schemes",
+    hero_search_placeholder: "Search schemes, crops, APMC mandi rates, or diseases...",
+    
+    services_title: "Living Fields Ecosystem",
+    services_subtitle: "Specialized agricultural intelligence modules connected through your shared digital farm profile.",
+    
+    verified_schemes: "Verified Government Schemes",
+    verified_schemes_desc: "Deterministic rule-based eligibility evaluation based on your official landholding and crops.",
+    source_verified: "Official Source Verified",
+    demo_scheme: "Demonstration",
+    evaluate_eligibility: "Check My Eligibility",
+    view_details: "View Guidelines & Apply",
+    
+    farm_dna_title: "Personalized Farm DNA",
+    farm_dna_subtitle: "Enter your land and crop records once. Access personalized scheme benefits and spray advisories across all modules.",
+    total_land: "Total Land Holding",
+    active_crops: "Active Crops",
+    soil_type: "Soil Classification",
+    irrigation_method: "Irrigation Setup",
+    
+    weather_forecast: "Live Karnataka Weather & Spray Windows",
+    market_ticker: "Karnataka APMC Mandi Rates Today",
+    knowledge_title: "Agricultural Knowledge & UAHS Best Practices",
+    ai_assistant_title: "Bilingual Krishi AI Assistant",
+    ai_assistant_desc: "Ask questions in Kannada or English about crop diseases, mandi trends, and scheme applications.",
+    
+    footer_tagline: "Empowering Karnataka farmers with transparent, science-backed agricultural technology.",
+    footer_rights: "All rights reserved. Krishi Mitra is built for the Digital Agriculture Hackathon.",
+  },
+  kn: {
+    app_title: "ಕೃಷಿ ಮಿತ್ರ",
+    app_tagline: "ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಡಿಜಿಟಲ್ ಕೃಷಿ ಸಂಗಾತಿ",
+    nav_home: "ಮುಖಪುಟ",
+    nav_schemes: "ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು",
+    nav_my_farm: "ನನ್ನ ಜಮೀನು",
+    nav_crop_health: "ಬೆಳೆ ಆರೋಗ್ಯ",
+    nav_weather: "ಹವಾಮಾನ ಮಾಹಿತಿ",
+    nav_market: "ಮಾರುಕಟ್ಟೆ ದರ",
+    nav_documents: "ದಾಖಲೆಗಳು",
+    nav_knowledge: "ಜ್ಞಾನ ಭಂಡಾರ",
+    nav_assistant: "ಎಐ ಸಹಾಯಕ",
+    nav_login: "ಲಾಗಿನ್",
+    nav_register: "ರೈತರ ನೋಂದಣಿ",
+    nav_dashboard: "ರೈತರ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    nav_admin: "ಆಡಳಿತ ಕನ್ಸೋಲ್",
+    nav_logout: "ಲಾಗ್ ಔಟ್",
+    
+    hero_headline: "ನಿಮ್ಮ ಕೃಷಿಗೆ, ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ.",
+    hero_kannada_motto: "ನಿಮ್ಮ ಕೃಷಿಗೆ, ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ.",
+    hero_subtitle: "ಕೃಷಿ ಮಿತ್ರವು ಜಮೀನಿನ ವಿವರಗಳು, ಪರಿಶೀಲಿಸಿದ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು, ಎಪಿಎಂಸಿ ಮಾರುಕಟ್ಟೆ ದರಗಳು, ಬೆಳೆ ರೋಗ ಪತ್ತೆ ಮತ್ತು ಹವಾಮಾನ ಮುನ್ಸೂಚನೆಯನ್ನು ಒಂದೇ ವೇದಿಕೆಯಲ್ಲಿ ಒದಗಿಸುತ್ತದೆ.",
+    hero_cta_services: "ಕೃಷಿ ಸೇವೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ",
+    hero_cta_schemes: "ಸರ್ಕಾರಿ ಯೋಜನೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+    hero_search_placeholder: "ಯೋಜನೆಗಳು, ಬೆಳೆಗಳು, ಎಪಿಎಂಸಿ ದರ ಅಥವಾ ರೋಗಗಳ ಬಗ್ಗೆ ಹುಡುಕಿ...",
+    
+    services_title: "ಸಮಗ್ರ ಕೃಷಿ ಸೇವೆಗಳು",
+    services_subtitle: "ನಿಮ್ಮ ಜಮೀನಿನ ವಿವರಗಳೊಂದಿಗೆ ಜೋಡಿಸಲಾದ ವಿಶ್ವಾಸಾರ್ಹ ಡಿಜಿಟಲ್ ಕೃಷಿ ಪರಿಹಾರಗಳು.",
+    
+    verified_schemes: "ದೃಢೀಕೃತ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು",
+    verified_schemes_desc: "ನಿಮ್ಮ ಜಮೀನು ಮತ್ತು ಬೆಳೆಯ ಆಧಾರದ ಮೇಲೆ ನಿಯಮಾಧಾರಿತ ನಿಖರ ಅರ್ಹತಾ ಪರೀಕ್ಷೆ.",
+    source_verified: "ಅಧಿಕೃತ ಮೂಲದಿಂದ ದೃಢೀಕರಿಸಲಾಗಿದೆ",
+    demo_scheme: "ಡೆಮೊ ಯೋಜನೆ",
+    evaluate_eligibility: "ನನ್ನ ಅರ್ಹತೆ ಪರಿಶೀಲಿಸಿ",
+    view_details: "ನಿಯಮಗಳು ಮತ್ತು ಅರ್ಜಿ ವಿವರ",
+    
+    farm_dna_title: "ವೈಯಕ್ತಿಕ ಕೃಷಿ ಪ್ರೊಫೈಲ್ (Farm DNA)",
+    farm_dna_subtitle: "ನಿಮ್ಮ ಜಮೀನು ಮತ್ತು ಬೆಳೆ ದಾಖಲೆಗಳನ್ನು ಒಮ್ಮೆ ನಮೂದಿಸಿ. ಎಲ್ಲಾ ಕೃಷಿ ಸೇವೆಗಳನ್ನು ಸುಲಭವಾಗಿ ಪಡೆಯಿರಿ.",
+    total_land: "ಒಟ್ಟು ಜಮೀನು ವಿಸ್ತೀರ್ಣ",
+    active_crops: "ಬೆಳೆದ ಬೆಳೆಗಳು",
+    soil_type: "ಮಣ್ಣಿನ ವಿಧ",
+    irrigation_method: "ನೀರಾವರಿ ವಿಧಾನ",
+    
+    weather_forecast: "ಕರ್ನಾಟಕ ಲೈವ್ ಹವಾಮಾನ ಮತ್ತು ಸಿಂಪಡಣೆ ಸಲಹೆ",
+    market_ticker: "ಇಂದಿನ ಎಪಿಎಂಸಿ ಮಾರುಕಟ್ಟೆ ದರಗಳು",
+    knowledge_title: "ಕೃಷಿ ಜ್ಞಾನ ಮತ್ತು ವಿಜ್ಞಾನಿಗಳ ಶಿಫಾರಸುಗಳು",
+    ai_assistant_title: "ದ್ವಿಭಾಷಾ ಕೃಷಿ ಎಐ ಸಹಾಯಕ",
+    ai_assistant_desc: "ಕನ್ನಡ ಅಥವಾ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬೆಳೆ ರೋಗ, ಮಾರುಕಟ್ಟೆ ದರ ಮತ್ತು ಯೋಜನೆಗಳ ಕುರಿತು ನೇರವಾಗಿ ಮಾತನಾಡಿ.",
+    
+    footer_tagline: "ಕರ್ನಾಟಕದ ರೈತರಿಗೆ ಪಾರದರ್ಶಕ ಮತ್ತು ವೈಜ್ಞಾನಿಕ ಕೃಷಿ ತಂತ್ರಜ್ಞಾನ ಒದಗಿಸುವುದು ನಮ್ಮ ಗುರಿ.",
+    footer_rights: "ಸರ್ವ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ. ಕೃಷಿ ಮಿತ್ರ ಡಿಜಿಟಲ್ ಕೃಷಿ ವೇದಿಕೆ.",
+  }
+};
+
